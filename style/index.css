@@ -16,4 +16,11 @@ main {
 
 .section {
   margin: 30px 0 60px 0;
+  width: 100%;
+  border-bottom: dashed 2px #000;
+  padding: 20px 20px 20px 0;
+}
+
+.section .list {
+  padding: 0 0 0 10px;
 }
