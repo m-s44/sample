@@ -25,6 +25,44 @@ main {
   padding: 0 0 0 10px;
 }
 
+.clearfix {
+  display: block;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* attention */
+.attention-box {
+  background-color: #f8d7da;
+  color: #6a1a21;
+  border-radius: 10px;
+  padding: 0 10px;
+  height: 100px;
+  position: relative;
+}
+.icon {
+  display: block;
+  float: left;
+}
+.font-size-6rem {
+  font-size: 6rem;
+}
+.font-error {
+  color: #6a1a21;
+}
+.attention-text {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
 /* Functions */
 .section-container,
 .section-container .list-table {
