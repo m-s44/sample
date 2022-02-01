@@ -24,3 +24,34 @@ main {
 .section .list {
   padding: 0 0 0 10px;
 }
+
+/* Functions */
+.section-container,
+.section-container .list-table {
+  width: 100%;
+}
+.section-container .list-table {
+}
+
+.section-container .list-table .sub-title {
+  text-align: left;
+}
+.section-container .list-table .titel-cell {
+  font-weight: 700;
+  width: 100%;
+}
+.section-container .list-table .sub-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section-container .list-table .list-cell {
+  width: 70px;
+  text-align: center;
+  border-bottom: 1px solid #888;
+  margin: 0 5px 0 0;
+}
+.cell-link {
+  display: inline-block;
+  width: 100%;
+}
