@@ -19,7 +19,34 @@ body {
   background-color: #000;
   color: #fff;
 }
+.uppercase {
+  text-transform: uppercase;
+}
+.card-container h2,
+.slider-container h2,
+.info-container h2,
+.form-area h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-area,
+.slider-area {
+  margin-top: 2%;
+  height: 100vh;
+}
+.info-area,
+.card-area,
+.form-area {
+  margin-top: 2%;
+}
+.main-container,
+.slider-container {
+  height: 100%;
+}
 
+
+
+/* header */
 .header {
   position: fixed;
   top: 0;
@@ -31,7 +58,6 @@ body {
   padding: 0 10px;
   z-index: 100;
 }
-
 .header-container {
   display: flex;
   flex-wrap: nowrap;
@@ -62,15 +88,37 @@ body {
   padding: 0;
   display: inline-block;
   padding: 0 20px;
+  cursor: pointer;
 }
 .link-list li a {
   text-decoration: none;
   color: #fff;
 }
 .link-list li:hover {
-  background-color: #bbb;
+  background-color: #fff;
+}
+.link-list li:hover a {
+  color: #000;
+}
+.contact-button {
+  display: inline-block;
+  outline: none;
+  border: #000000 solid 1px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contact-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: #ffffff solid 1px;
 }
 
+
+/* main */
 .main-area {
   margin-top: 60px;
 }
@@ -116,29 +164,6 @@ body {
 }
 
 
-.card-container h2,
-.slider-container h2,
-.info-container h2,
-.form-area h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.main-area,
-.slider-area {
-  margin-top: 2%;
-  height: 100vh;
-}
-.info-area,
-.card-area,
-.form-area {
-  margin-top: 2%;
-}
-
-.main-container,
-.slider-container {
-  height: 100%;
-}
 
 /* card sample */
 .list {
@@ -391,7 +416,12 @@ input[name="slider-radio"]:nth-of-type(4):checked ~ .slider-container .slider-im
   height: 100%;
 }
 
-
+/* footer */
+.footer-list {
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  padding: 20px;
+}
 
 
 /* pc */
