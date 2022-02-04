@@ -88,13 +88,17 @@ body {
   padding: 0;
   display: inline-block;
   padding: 0 20px;
+  cursor: pointer;
 }
 .link-list li a {
   text-decoration: none;
   color: #fff;
 }
 .link-list li:hover {
-  background-color: #bbb;
+  background-color: #fff;
+}
+.link-list li:hover a {
+  color: #000;
 }
 .contact-button {
   display: inline-block;
